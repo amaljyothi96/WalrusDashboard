@@ -1,0 +1,35 @@
+.title {
+  color: white;
+  font: icon;
+  font-size: 24px;
+  margin: 0px 0px 30px 30px;
+  font-weight: bold;
+}
+.listWrapper {
+  background: #0000004d;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.listWrapperContainer {
+  padding-bottom: 1px;
+  width: 50%;
+  background-color: #00000042;
+  border-radius: 30px;
+}
+
+.listWrapper .titleContainer {
+  border-bottom: 1px solid #2e2e2e;
+  padding: 15px;
+}
+
+.listWrapper :last-child {
+  border-bottom: unset;
+}
+
+.viewAll {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}

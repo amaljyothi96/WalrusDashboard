@@ -1,0 +1,27 @@
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.coinTitle {
+  color: white;
+  font-weight: bold;
+  margin: unset;
+}
+
+.alignRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.coinDesc {
+  color: white;
+  margin: unset;
+}
+
+.coinVariation {
+  color: #ff5454;
+  margin: unset;
+}
